@@ -1,4 +1,12 @@
+import os
+
+os.system("pip3 install flet")
+
+
+
 import flet as ft
+
+
 
 class Message():
     def __init__(self, user_name: str, text: str, message_type: str):
